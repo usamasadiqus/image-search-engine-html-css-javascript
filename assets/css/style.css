@@ -95,3 +95,20 @@ form button {
     border-bottom-right-radius: 8px;
     cursor: pointer;
 }
+
+::placeholder {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#show-more-btn {
+    background-color: #ff3929;
+    color: #ffffff;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 10px auto 100px;
+    cursor: pointer;
+    display: none;
+}
